@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace eTicket.Data.Services
 {
-   public interface IActorsService:IEntityBaseRepository<Actor>
+    public interface IMoviesService:IEntityBaseRepository<Movie>
     {
-        
 
     }
 }
